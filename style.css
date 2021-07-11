@@ -10,21 +10,21 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 /* cambien aquí sus tipografías, necesitan definir un par */
 
-@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400&family=Dela+Gothic+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto:wght@300;400;500&display=swap');
 
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
     --primercolor: #222;
-    --segundocolor: #666; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #aaa; /* más luminoso y menos saturado que el primero */
-    --colorclaro: rgba(255, 255, 255, 0.9);
-    --coloroscuro: rgba(0, 0, 0, 0.9);
+    --segundocolor: rgb(255, 255, 255); /* menos luminoso y más saturado que el primero */
+    --tercercolor: #ffaf37; /* más luminoso y menos saturado que el primero */
+    --colorclaro: rgba(0, 0, 0, 0.9);
+    --coloroscuro: rgba(255, 255, 255, 0.9);
 }
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
-    font-family: "Andika New Basic", sans-serif;
+    font-family: 'Roboto', sans-serif; 
     font-weight: 400;
     background: var(--segundocolor);
     color: var(--colorclaro);
@@ -34,15 +34,15 @@ strong {
     font-weight: 700;
 }
 
-h1,
-h2,
-h3,
+h1, 
+h2, 
+h3, 
 h4,
 h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-    font-family: "Dela Gothic One", cursive;
+    font-family: font-family: 'Oswald', sans-serif; 
     font-weight: 400;
 }
 
@@ -73,7 +73,7 @@ en todos los casos la imagen debería pesar menos de 300kb
 
 header {
     background-color: var(--segundocolor);
-    background-image: url("img/relacion-3x4.png");
+    background-image: url("img/3-4 Background.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,13 +82,13 @@ header {
 
 @media (min-width: 576px) {
     header {
-        background-image: url("img/relacion-4x3.png");
+        background-image: url("img/4-3 Background.jpg");
     }
 }
 
 @media (min-width: 992px) {
     header {
-        background-image: url("img/relacion-21x9.png");
+        background-image: url("img/21-9 Background.jpg");
     }
 }
 
@@ -102,7 +102,7 @@ Con tales colores, la imagen sirve de transición a la parte que ofrece más inf
 --------------------------------------------------------------------------------------------- */
 
 main {
-    background-image: url("img/relacion-21x9.png");
+    background-image: url("img/21-9 Main.jpg");
     background-position: center bottom;
     background-repeat: repeat-x;
     background-size: 100% auto;
