@@ -73,11 +73,9 @@ en todos los casos la imagen debería pesar menos de 300kb
 
 header {
     background-color: var(--segundocolor);
-<<<<<<< HEAD
+
     background-image: url("img/3-4 Background.jpg");
-=======
-    background-image: url("img/ods_dos_hambre_cero_bbva_recurso.jpg");
->>>>>>> c59b2b5ca364926af11da99289a42deb06e3a369
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
